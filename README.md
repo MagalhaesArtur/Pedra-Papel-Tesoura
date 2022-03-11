@@ -10,7 +10,7 @@
 
 <p align="center">
  <h1>Demo:</h1>
-  <a href="https://lista-de-tarefas-reactjs.vercel.app/" target="_blank">
+  <a href="https://jokenpo-projeto.netlify.app/" target="_blank">
     <img alt="Demo on Vercel" src="./assets/logo.png">
   </a>
 </p>
