@@ -5,6 +5,9 @@
 
   box-sizing: border-box;
 }
+body {
+  background: linear-gradient(90deg, #1e130c 0%, #9a8478 100%);
+}
 @font-face {
   font-family: GigaSansBlack;
   src: url(./assets/giga-sans-black.otf);
@@ -36,13 +39,32 @@ img {
   opacity: 1;
 }
 
-.machine a {
+.machineChoisePaper {
   opacity: 0.2;
   transition-property: all;
   transition-timing-function: ease;
   transition-duration: 300ms;
   transition-delay: 50ms;
 }
+.machineChoiseRock {
+  opacity: 0.2;
+  transition-property: all;
+  transition-timing-function: ease;
+  transition-duration: 300ms;
+  transition-delay: 50ms;
+}
+.machineChoiseScissors {
+  opacity: 0.2;
+  transition-property: all;
+  transition-timing-function: ease;
+  transition-duration: 300ms;
+  transition-delay: 50ms;
+}
+
+.machineSelected {
+  opacity: 1;
+}
+
 .machine {
   width: 42.5%;
   background-color: #e74c3c;
